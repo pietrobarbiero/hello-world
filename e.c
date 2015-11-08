@@ -12,7 +12,7 @@ int main(){
 	char *latte;
 	
 	latte = malloc(40*sizeof(char));
-	strcpy(latte,"sei brutto");
+	strcpy(latte,"sei brutto"); //è un tuo parere......
 	
 	if(!fork()){
 		execlp("echo", "echo", latte, NULL);
